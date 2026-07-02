@@ -91,9 +91,3 @@ git push -u origin main
 > The frontend reads the backend URL from `REACT_APP_API_URL` (see `frontend/src/api.js`); on your own computer it defaults to `http://localhost:3001/api`, so no setup is needed locally.
 
 ---
-
-## Documentation
-
-A full code walkthrough of the whole app (backend, frontend and database) is in
-[DOCUMENTATION.md](./DOCUMENTATION.md). Read it to understand how every feature
-and API call works.
