@@ -89,5 +89,3 @@ git push -u origin main
 - **Frontend:** deploy the `frontend/` folder to [Vercel](https://vercel.com) or [Netlify](https://netlify.com). Set `REACT_APP_API_URL` to your live backend URL (e.g. `https://your-backend.onrender.com/api`).
 
 > The frontend reads the backend URL from `REACT_APP_API_URL` (see `frontend/src/api.js`); on your own computer it defaults to `http://localhost:3001/api`, so no setup is needed locally.
-
----
