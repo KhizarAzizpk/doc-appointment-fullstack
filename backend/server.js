@@ -5,6 +5,9 @@
 // ==========================================================================
 
 // Load the environment variables from the .env file (PORT, MONGO_URI, etc).
+const dns = require('dns');
+
+dns.setServers(['8.8.8.8', '1.1.1.1']);
 require("dotenv").config();
 
 const express = require("express");
