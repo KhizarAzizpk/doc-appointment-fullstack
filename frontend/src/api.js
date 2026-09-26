@@ -6,7 +6,7 @@ const api = axios.create({
   // Where the backend lives. On your own computer it is localhost:3001.
   // When you DEPLOY the app, set REACT_APP_API_URL to your live backend URL
   // (for example https://my-backend.onrender.com/api) and this will use it.
-  baseURL: "https://doc-appointment-git-main-khizar-projects.vercel.app/api",
+  baseURL: "https://doc-appointment-bice-chi.vercel.app/api",
 });
 
 // This is called an "interceptor". It runs before every request and
